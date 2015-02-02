@@ -1,0 +1,14 @@
+<div class="blue-bar top-left-bar">
+  <img src="images/logo.png" width="157" height="27" alt="Sunrun" id="logo" title="Start over">
+</div>
+{{ if (activeStep > 0) { }}
+<div id="chevrons">
+  <div id='step-1' class="{{= activeStep == 1 ? 'active' : 'completed'}}">Address</div>
+  <div id='step-2' class="{{= activeStep == 2 ? 'active' : ''}}">Home Info</div>
+  <!--<div id='step-3' class="{{= activeStep == 3 ? 'active' : ''}}">Bill</div>-->
+  <div id='step-3' class="{{= activeStep == 3 ? 'active' : ''}}">Site</div>
+  <div id='step-4' class="{{= activeStep == 4 ? 'active' : ''}}">Settings</div>
+  <div id='step-5' class="{{= activeStep == 5 ? 'active' : ''}}">Design</div>
+  <div id='step-6' class="{{= activeStep == 6 ? 'active' : ''}}">Summary</div>
+</div>
+{{ } }}

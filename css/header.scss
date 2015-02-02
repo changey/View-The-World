@@ -1,0 +1,106 @@
+$contact-info-top: 10px;
+
+.blue-bar {
+  position: absolute;
+  top: 0px;
+  height: $header-height;
+  border: 1px solid #00ade5;
+  background-color: rgba(0, 173, 230, 0.95);
+  -moz-box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.22);
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.22);
+}
+
+.top-left-bar {
+  left: 0px;
+  width: 100%;
+}
+
+#logo {
+  position: absolute;
+  left: 29px;
+  top: 13px;
+  cursor: pointer;
+}
+
+#chevrons {
+  position: absolute;
+  top: 0px;
+  left: 224px;
+  
+  div {
+    position: absolute;
+    width: 142px;
+    height: $header-height;
+    font-size: 16px;
+    font-family: "Naiv-BoldText";
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 22px 8px 0 0;
+    background: url(../images/chevrons/sunrun-blue-chevron.png) no-repeat 0 0px;
+    span {
+      font-family: "Naiv-NormalText";
+      font-size: 13px;
+      text-transform: none;
+    }
+  }
+
+  .active {
+    color: #1b4677;
+    background-image: url(../images/chevrons/white-chevron.png);
+  }
+  
+  .completed {
+    color: white;
+    background-image: url(../images/chevrons/dark-blue-chevron.png);
+  }
+
+  $chevron-width: 128px;
+  div + div {
+    left: $chevron-width;
+    + div {
+      left: 2*$chevron-width;
+      + div {
+        left: 3*$chevron-width;
+        + div {
+          left: 4*$chevron-width;
+          + div {
+            left: 5*$chevron-width;
+          }
+        }
+      }
+    }
+  }
+}
+
+#help {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
+  &.selected {
+    background: white;
+    color: $blue;
+  }
+}
+
+#icon-help {
+  width: 60px;
+  height: 60px;
+}
+
+#contact-info-icon {
+  position: absolute;
+  top: $contact-info-top;
+  right: 60px;
+  width: 100px;
+  height: $header-height - $contact-info-top;
+}
+
+#icon-free-quote {
+  position: absolute;
+  top: -5px;
+  right: 115px;
+  height: $header-height - $contact-info-top;
+}

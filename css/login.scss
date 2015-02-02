@@ -1,0 +1,16 @@
+@import "colors";
+
+ul.ui-autocomplete {
+  background: white;
+  font-family: "Naiv-BoldText";
+}
+
+#loop-mode {
+  background: $navy;
+  float: left;
+  margin-left: 15px;
+}
+
+#loop-mode, #login-button {
+  min-width: 150px;
+}

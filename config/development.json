@@ -1,0 +1,43 @@
+{
+  "LightmileEndpointUrl": "http://majdev-lightmile-bb.sunrundev.com/sunrun/fromretail.action?",
+  "SalesForceWebToLeadUrl": "https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8",
+  "SalesForceOid": "00D1100000089Tl",
+  "SalesForceOAuthUrl": "https://test.salesforce.com/services/oauth2/authorize",
+  "SalesForceClientId": "3MVG9FS3IyroMOh5ZSbh9coRv0yJSzH9CXb7EdDjGQQrmFQdWFv2xSmZ9wbudKFGvwIeDL5KmeA2gsvPMissc",
+  "SalesForceRedirectUrl": "https://r30.sunrundev.com/#/sfcallback/",
+  "VtwBaseUrl": "https://r30.sunrundev.com",
+  "LightmileBaseUrl": "https://majdev-lightmile-bb.sunrundev.com",
+  "SalesForceFieldIds": {
+    "leadSource": "00N60000002YDal",
+    "leadOrigin": "00N60000001aETt",
+    "channel": "00N60000002YDag",
+    "monthlyElectricBill": "00N60000002YgkG",
+    "leadClassification": "00N60000002YOK1",
+    "salesRepEmail": "00N60000002Ydf2",
+    "notes": "00N60000001aGx2",
+    "phone": "phone",
+    "firstName": "first_name",
+    "lastName": "last_name",
+    "email": "email",
+    "leadStatus": "00N60000002YS6l",
+    "whyUnqualified": "00N60000001aFJk",
+    "reason": "00N60000002YS6m",
+    "squareFootage": "00N60000002YF6i",
+    "leadOrganization": "00N60000002WKWp",
+    "branchName": "00N60000002YgkN"
+  },
+  "BrightCurrentWebToLeadUrl": "https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8",
+  "BrightCurrentOid": "00Dd0000000eDLP",
+  "BrightCurrentFieldIds": {
+    "monthlyElectricBill": "00Nd0000005L27N",
+    "salesRepEmail": "00Nd0000007p9lT",
+    "phone": "phone",
+    "firstName": "first_name",
+    "lastName": "last_name",
+    "email": "email",
+    "calledCenterPartner": "00Nd0000007ofXg",
+    "locationPicklist": "00Nd0000005K7h4",
+    "recLeadSource": "00Nd0000007OzW0",
+    "squareFootage": "00Nd0000007pYhl"
+  }
+}

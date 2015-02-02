@@ -1,0 +1,63 @@
+<div id="monthly-bill" class="overlay form-container">
+  <h1>Step 2:</h1>
+
+  <h2>What's your average monthly electric bill?</h2>
+  <p>We need to make sure that you use enough electricity that putting a solar system on your roof makes sense.</p>
+  <input type="range" min="0" max="1000" step="10" id="bill-range" value="{{= defaultBillAmount }}"/>
+  <table>
+    <tr>
+      <td>0</td>
+      <td>200 </td>
+      <td>400</td>
+      <td>600</td>
+      <td>800</td>
+      <td>1000</td>
+    </tr>
+  </table>
+  <div id="bill-amount-container">
+    <label for="bill-amount">$</label>
+    <input class="form-input customer-input" type="text" name="bill-amount" id="bill-amount" value="{{= defaultBillAmount }}"/>
+  </div>
+  <div id="bill-amount-error" class="error" style="display:none">Please enter a valid bill amount</div>
+
+  <h2>Select your sales representative.</h2>
+  <select id="sales-reps" class="form-input">
+    {{ _.each(salesReps, function(salesRep) { }}
+    <option value="{{= salesRep}}">{{= salesRep}}</option>
+    {{ }); }}
+  </select>
+
+  <h2>How can we get in touch?</h2>
+  <p>Have one of our friendly solar experts take a closer look at your home.</p>
+  
+  <div class="form-element-container">
+    <label class="form-label" for="first-name">First Name</label>
+    <input class="form-input customer-input" type="text" name="first-name" id="first-name" />
+  </div>
+
+  <div class="form-element-container">
+    <label class="form-label" for="last-name">Last Name</label>
+    <input class="form-input customer-input" type="text" name="last-name" id="last-name" />
+  </div>
+
+  <div class="form-element-container">
+    <label class="form-label" for="phone">Phone Number</label>
+    <input class="form-input customer-input" type="text" name="phone" id="phone" />
+  </div>
+
+  <div class="form-element-container">
+    <label class="form-label" for="email">Email Address</label>
+    <input class="form-input customer-input" type="text" name="email" id="email" />
+  </div>
+
+  <div class="button-container">
+    <button id='lightmile-submit' type="submit" class="form-button">Next &gt;</button>
+  </div>
+</div>
+<form id="salesforce-form" action="{{= salesforceUrl }}" method="post" target="salesforce-iframe"></form>
+<iframe id=salesforce-iframe" name="salesforce-iframe"></iframe>
+<div id="loading"></div>
+
+<div id="large-textbox">
+  <input type="text" name="large-input" id="large-input"/>
+</div>

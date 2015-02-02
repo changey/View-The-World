@@ -1,0 +1,64 @@
+<div class="login form-container">
+  <h1>Welcome!</h1>
+
+  <h2>Please log in below with your credentials.</h2>
+
+  <form id="login-form">
+    <label for="branch-name" class="form-label">Field Marketing Branch</label>
+    <select id="branch-name" name="branch-name" class="form-input">
+    <option value="default">Please Select</option>
+    {{ _.each(branches, function(branch) { }}
+    <option value="{{= branch}}" {{= (loginInfoModel.get('branchName') == branch) ? 'selected' : '' }}>{{= branch}}</option>
+    {{ }); }}
+    </select>
+    {{ if(errors.branchNameMissing){ }}
+    <p id="branch-name-error" class="error">Please select a filed marketing branch name.</p>
+    {{ } }}
+
+    <div id="lead-organization-container">
+    <label for="lead-organization" class="form-label">Lead Organization</label>
+    <input type="text" id="lead-organization" name="lead-organization" class="form-input" value="{{= loginInfoModel.get('leadOrganization')}}"/>
+    {{ if(errors.leadOrganizationMissing){ }}
+    <p id="lead-organization-error" class="error">Please select a lead organization.</p>
+    {{ } }}
+    </div>
+    
+    <label for="store-name" class="form-label">Store Name</label>
+    <select id="store-name" name="store-name" class="form-input">
+      <option value="default">Please Select</option>
+      {{ _.each(stores, function(store) { }}
+      <option value="{{= store}}" {{= (loginInfoModel.get('storeName') == store) ? 'selected' : '' }}>{{= store}}</option>
+      {{ }); }}
+    </select>
+    {{ if(errors.storeNameMissing){ }}
+      <p id="store-name-error" class="error">Please select a store name.</p>
+    {{ } }}
+    
+    <label for="email" class="form-label">Lead Generator Emails</label>
+    {{ _.each(loginInfoModel.get('emails'), function(email, index) { }}
+      <input type="text" name="email" class="form-input email" value="{{= email }}"/>
+      {{ if(loginInfoModel.get('emails').length > 1){ }}
+      <div class="remove-email" data="{{= index }}">-</div>
+      {{ } }}
+    {{ }); }}
+    <div class="add-email">+</div>
+    {{ if(errors.emailMissing){ }}
+    <p id="email-error" class="error">Please enter an email address.</p>
+    {{ } }}
+
+    <label for="location-set" class="form-label">Location Set</label>
+    <select id="location-set" name="location-set" class="form-input">
+      <option value="default">Please Select</option>
+      {{ _.each(locationSets, function(locationSet) { }}
+      <option value="{{= locationSet}}" {{= (loginInfoModel.get('locationSet') == locationSet) ? 'selected' : '' }}>{{= locationSet}}</option>
+      {{ }); }}
+    </select>
+    {{ if(errors.locationSetMissing){ }}
+    <p id="location-set-error" class="error">Please select a location set.</p>
+    {{ } }}
+
+    <button id="loop-mode" onclick="return false;" class="form-button">Loop Mode</button>
+    <button id="login-button" onclick="return false;" class="form-button">Get started ></button>
+  </form>
+
+</div>

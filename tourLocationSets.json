@@ -1,0 +1,469 @@
+{
+  "Global": [
+    {
+      "address": "Times Square, Manhattan, NY 10036, USA",
+      "name": "Times Square",
+      "thumbnail": "",
+      "latitude": 40.758989,
+      "longitude": -73.984887,
+      "zoomLevel": 19,
+      "photoSphereIds": [
+        "Ai9VOEeRmJ4AAAGu5vKx-A",
+        "I_VXDQUVIskAAAQWjJdVjQ",
+        "_pmlDpBywHAAAAGusfdMrQ"
+      ]
+    },
+    {
+      "address": "Eiffel Tower, Champ de Mars, 5 Avenue Anatole France, 75007 Paris, France",
+      "name": "Eiffel Tower",
+      "thumbnail": "",
+      "latitude": 48.858075,
+      "longitude": 2.294806,
+      "zoomLevel": 18,
+      "photoSphereIds": [
+        "k20TuP974oYAAAGuwldEVA",
+        "TfOtSjhjU3Fd9Z5ZFz2iBQ",
+        "UISi6yUNP9rehcjKEfSOsw"
+      ]
+    },
+    {
+      "address": "Colosseum, Piazza del Colosseo, 1, 00184 Rome, Italy",
+      "name": "The Colosseum, Rome",
+      "thumbnail": "",
+      "latitude": 41.8902102,
+      "longitude": 372.4922289,
+      "zoomLevel": 18,
+      "photoSphereIds": [
+        "HHrXAc0c5gUAAAAGOsle8Q",
+        "8Ik_QF8dZUxFcEILDgLhcQ",
+        "29G4i9K_2jQAAAQIt8RmnA"
+      ]
+    },
+    {
+      "address": "Pyramids of Giza, Al Haram, Giza, Egypt",
+      "name": "Pyramids of Giza, Egypt",
+      "thumbnail": "",
+      "latitude": 29.976398,
+      "longitude": 31.132143,
+      "zoomLevel": 18,
+      "photoSphereIds": [
+        "oTghdeDUJfUAAAAGOsn04w"
+      ]
+    },
+    {
+      "address": "Santa Monica Pier, Santa Monica, CA 90401, USA",
+      "name": "Santa Monica Pier",
+      "thumbnail": "",
+      "latitude": 34.0090504809483,
+      "longitude": 241.50345827710725,
+      "zoomLevel": 18,
+      "photoSphereIds": [
+        "sAId4UYgGpgAAAQJOBW75g",
+        "GZ8rKUGs5c0ziBFcNyzpIw",
+        "gQKCxvgC1oEAAAQWf_kdSw"
+      ]
+    },
+    {
+      "address": "Downtown San Francisco, San Francisco, CA, USA",
+      "name": "Downtown San Francisco",
+      "thumbnail": "downtown-san-francisco.png",
+      "latitude": 37.7927731,
+      "longitude": -122.4010922,
+      "zoomLevel": 16,
+      "photoSphereIds": [
+        "8ZWVJ_SR30sAAAQJONZhyw",
+        "dxYqfbmtWnCiqZqu3-DJgg",
+        "bMx_VATLz-9OMH7K4v-C3g"
+      ]
+    },
+    {
+      "address": "4300 Nuhou Street, Lihue, HI 96766, USA",
+      "name": "Solar-Powered Store",
+      "thumbnail": "solar-powered-store.png",
+      "latitude": 21.9670391,
+      "longitude": -159.3795447,
+      "zoomLevel": 19,
+      "photoSphereIds": [
+        "QHcOfTTaNnYAAAGuquOF2Q",
+        "_HKq3kJG3NNXV9ElI9J8Wg",
+        "ptC2OJp5_o7tC_NH1CMNdg"
+      ]
+    }
+  ],
+  "Hawaii": [
+    {
+      "address": "Honolulu, HI, USA",
+      "name": "Honolulu",
+      "thumbnail": "honolulu.png",
+      "latitude": 21.3080681,
+      "longitude": -157.8189705,
+      "zoomLevel": 13,
+      "photoSphereIds": [
+        "QHcOfTTaNnYAAAGuquOF2Q",
+        "_HKq3kJG3NNXV9ElI9J8Wg",
+        "ptC2OJp5_o7tC_NH1CMNdg"
+      ]
+    },
+    {
+      "address": "Hawaii Volcanoes National Park, Hawaii Volcanoes National Park, HI 96718",
+      "name": "Hawaii Volcanoes National Park",
+      "thumbnail": "",
+      "latitude": 19.405744587348405,
+      "longitude": 204.71701430109172,
+      "zoomLevel": 16,
+      "photoSphereIds": [
+        "fwY2dRw0uQaH-lGrexxsFQ",
+        "h2FnPsWiZUIB4S-lKOB83A",
+        "DHzalku8ixaegagPB6cD3w"
+      ]
+    },
+    {
+      "address": "Santa Monica Pier, Santa Monica, CA 90401, USA",
+      "name": "Santa Monica Pier",
+      "thumbnail": "",
+      "latitude": 34.0090504809483,
+      "longitude": 241.50345827710725,
+      "zoomLevel": 18,
+      "photoSphereIds": [
+        "sAId4UYgGpgAAAQJOBW75g",
+        "GZ8rKUGs5c0ziBFcNyzpIw",
+        "gQKCxvgC1oEAAAQWf_kdSw"
+      ]
+    },
+    {
+      "address": "Downtown San Francisco, San Francisco, CA, USA",
+      "name": "Downtown San Francisco",
+      "thumbnail": "downtown-san-francisco.png",
+      "latitude": 37.7927731,
+      "longitude": -122.4010922,
+      "zoomLevel": 16,
+      "photoSphereIds": [
+        "8ZWVJ_SR30sAAAQJONZhyw",
+        "yWK0RS6xrSJen50IoYg8Sw",
+        "5DZFbqo8_koV2WQKb9K86g"
+      ]
+    },
+    {
+      "address": "Eiffel Tower, Champ de Mars, 5 Avenue Anatole France, 75007 Paris, France",
+      "name": "Eiffel Tower",
+      "thumbnail": "",
+      "latitude": 48.857868926684866,
+      "longitude": 362.2945409908073,
+      "zoomLevel": 18,
+      "photoSphereIds": [
+        "k20TuP974oYAAAGuwldEVA",
+        "TfOtSjhjU3Fd9Z5ZFz2iBQ",
+        "UISi6yUNP9rehcjKEfSOsw"
+      ]
+    },
+    {
+      "address": "Colosseum, Piazza del Colosseo, 1, 00184 Rome, Italy",
+      "name": "The Colosseum, Rome",
+      "thumbnail": "",
+      "latitude": 41.8902102,
+      "longitude": 372.4922289,
+      "zoomLevel": 18,
+      "photoSphereIds": [
+        "HHrXAc0c5gUAAAAGOsle8Q",
+        "8Ik_QF8dZUxFcEILDgLhcQ",
+        "29G4i9K_2jQAAAQIt8RmnA"
+      ]
+    },
+    {
+      "address": "4300 Nuhou Street, Lihue, HI 96766, USA",
+      "name": "Solar-Powered Store",
+      "thumbnail": "solar-powered-store.png",
+      "latitude": 21.9670391,
+      "longitude": -159.3795447,
+      "zoomLevel": 19,
+      "photoSphereIds": [
+        "QHcOfTTaNnYAAAGuquOF2Q",
+        "_HKq3kJG3NNXV9ElI9J8Wg",
+        "ptC2OJp5_o7tC_NH1CMNdg"
+      ]
+    }
+  ],
+  "Los Angeles Area": [
+    {
+      "address": "2800 East Observatory Road, Los Angeles, CA 90027, USA",
+      "name": "Griffith Observatory",
+      "thumbnail": "",
+      "latitude": 34.1186250558456,
+      "longitude": 241.69959005581967,
+      "zoomLevel": 19,
+      "photoSphereIds": [
+        "wdnuvyL5EioAAAGusm7qGA",
+        "IL_DLH1AgYsAAAGuwlQZbA",
+        "yd8SWNbFLaYAAAAAAABgDg",
+        "YcLCSp686w0AAAGuxVGkMQ",
+        "crreWJyoLXkAAAGusir3aA",
+        "3zopd0B1xygAAAQIt_b76A",
+        "7ajKqbmoN9EAAAQJKikjEQ"
+      ]
+    },
+    {
+      "address": "The Getty, 1200 Getty Center Drive, Los Angeles, CA 90049, USA",
+      "name": "The Getty Center",
+      "thumbnail": "",
+      "latitude": 34.07766506359979,
+      "longitude": 241.5258704134918,
+      "zoomLevel": 18,
+      "photoSphereIds": [
+        "8ZczulZHDfMAAAGuxVC6DA",
+        "cR6ma4TNiKLi_eJgGpVWFg",
+        "YOxm1_qqYNTRHFuJza8omQ"
+      ]
+    },
+    {
+      "address": "1765 East 107th Street, Los Angeles, CA 90002, USA",
+      "name": "Watts Towers",
+      "thumbnail": "",
+      "latitude": 33.93849064440807,
+      "longitude": 241.75942088479457,
+      "zoomLevel": 19,
+      "photoSphereIds": [
+        "HoTYYfscwHcUMXtMv6j1rA",
+        "lLpdBJXntDY_Y4-bCyeSxA",
+        "_UtSFZ_MuCwAAAQJLDyAWA"
+      ]
+    },
+    {
+      "address": "Chateau Marmont, Marmont Lane, Los Angeles, CA 90046, USA",
+      "name": "Chateau Marmont",
+      "thumbnail": "",
+      "latitude": 34.09809763667107,
+      "longitude": 241.63161835092615,
+      "zoomLevel": 20,
+      "photoSphereIds": [
+        "cE4yirDS0ZEBsZQ3gTjylQ",
+        "IWLDofwTkxCama4Z-ugm1A",
+        "hr0HBUYZFIYmRxPfFHPMQQ"
+      ]
+    },
+    {
+      "address": "Downtown San Francisco, San Francisco, CA, USA",
+      "name": "Downtown San Francisco",
+      "thumbnail": "downtown-san-francisco.png",
+      "latitude": 37.7927731,
+      "longitude": -122.4010922,
+      "zoomLevel": 16,
+      "photoSphereIds": [
+        "8ZWVJ_SR30sAAAQJONZhyw",
+        "yWK0RS6xrSJen50IoYg8Sw",
+        "5DZFbqo8_koV2WQKb9K86g"
+      ]
+    },
+    {
+      "address": "Hollywood Bowl, 2301 N Highland Ave Los Angeles, CA 90068",
+      "name": "Hollywood Bowl",
+      "thumbnail": "",
+      "latitude": 34.11163688292409,
+      "longitude": 241.66118564877357,
+      "zoomLevel": 18,
+      "photoSphereIds": [
+        "B4fThPCZI0yT942UL_ooTQ",
+        "zFspDX6roKOBago8oflXSw",
+        "iJz1wRm682mPqzWOusbzUQ"
+      ]
+    },
+    {
+      "address": "4300 Nuhou Street, Lihue, HI 96766, USA",
+      "name": "Solar-Powered Store",
+      "thumbnail": "solar-powered-store.png",
+      "latitude": 21.9670391,
+      "longitude": -159.3795447,
+      "zoomLevel": 19,
+      "photoSphereIds": [
+        "QHcOfTTaNnYAAAGuquOF2Q",
+        "_HKq3kJG3NNXV9ElI9J8Wg",
+        "ptC2OJp5_o7tC_NH1CMNdg"
+      ]
+    }
+  ],
+  "San Diego Area": [
+    {
+      "address": "Balboa Park, 1549 El Prado, San Diego, CA 92101, USA",
+      "name": "Balboa Park",
+      "thumbnail": "",
+      "latitude": 32.73182655507655,
+      "longitude": 242.85367474205015,
+      "zoomLevel": 19,
+      "photoSphereIds": [
+        "tqaPs8UkiMoCeymhgU_69g",
+        "ap_oRPPqxJ4Xlas0LBPtPA",
+        "U4LgVJyRj3tVxKPzW8XlzA"
+      ]
+    },
+    {
+      "address": "10th Av & Park Bl (Petco Park), San Diego, CA 92101, USA",
+      "name": "Petco Park",
+      "thumbnail": "",
+      "latitude": 32.7072547461731,
+      "longitude": 242.84290044998474,
+      "zoomLevel": 20,
+      "photoSphereIds": [
+        "NRhHa0yaq8MAAAQIt9TrNQ",
+        "SV9U_lrOouoAAAQWtBHRCg",
+        "STOx86-FH70AAAGuxVSYGg"
+      ]
+    },
+    {
+      "address": "Stanford University, 450 Serra Mall, Stanford, CA 94305, USA",
+      "name": "Stanford Campus",
+      "thumbnail": "stanford-campus.png",
+      "latitude": 37.427474,
+      "longitude": -122.169719,
+      "zoomLevel": 17,
+      "photoSphereIds": [
+        "FKmIseri9cE0OsP19GvEzw",
+        "5fbYTBh4kCcAAAGuwlA4Xw",
+        "WruLV1c3uVC2mn8h7pRqoA"
+      ]
+    },
+    {
+      "address": "The Getty, 1200 Getty Center Drive, Los Angeles, CA 90049, USA",
+      "name": "The Getty Center",
+      "thumbnail": "",
+      "latitude": 34.07766506359979,
+      "longitude": 241.5258704134918,
+      "zoomLevel": 18,
+      "photoSphereIds": [
+        "8ZczulZHDfMAAAGuxVC6DA",
+        "cR6ma4TNiKLi_eJgGpVWFg",
+        "YOxm1_qqYNTRHFuJza8omQ"
+      ]
+    },
+    {
+      "address": "La Jolla Country Club, 7301 High Ave, La Jolla, CA 92037, USA",
+      "name": "La Jolla Cove",
+      "thumbnail": "",
+      "latitude": 32.83648,
+      "longitude": -117.268132,
+      "zoomLevel": 17,
+      "photoSphereIds": [
+        "vzE7kN8Wzo3Vr3101Ri-fA",
+        "YzAy-a4M22zhuo2m9I4L5g",
+        "6ctOeCn5wojw-v-GHP43_w"
+      ]
+    },
+    {
+      "address": "Downtown San Francisco, San Francisco, CA, USA",
+      "name": "Downtown San Francisco",
+      "thumbnail": "downtown-san-francisco.png",
+      "latitude": 37.7927731,
+      "longitude": -122.4010922,
+      "zoomLevel": 16,
+      "photoSphereIds": [
+        "8ZWVJ_SR30sAAAQJONZhyw",
+        "yWK0RS6xrSJen50IoYg8Sw",
+        "5DZFbqo8_koV2WQKb9K86g"
+      ]
+    },
+    {
+      "address": "4300 Nuhou Street, Lihue, HI 96766, USA",
+      "name": "Solar-Powered Store",
+      "thumbnail": "solar-powered-store.png",
+      "latitude": 21.9670391,
+      "longitude": -159.3795447,
+      "zoomLevel": 19,
+      "photoSphereIds": [
+        "QHcOfTTaNnYAAAGuquOF2Q",
+        "_HKq3kJG3NNXV9ElI9J8Wg",
+        "ptC2OJp5_o7tC_NH1CMNdg"
+      ]
+    }
+  ],
+  "San Francisco Bay Area": [
+    {
+      "address": "Downtown San Francisco, San Francisco, CA, USA",
+      "name": "Downtown San Francisco",
+      "thumbnail": "downtown-san-francisco.png",
+      "latitude": 37.7927731,
+      "longitude": -122.4010922,
+      "zoomLevel": 16,
+      "photoSphereIds": [
+        "8ZWVJ_SR30sAAAQJONZhyw",
+        "yWK0RS6xrSJen50IoYg8Sw",
+        "5DZFbqo8_koV2WQKb9K86g"
+      ]
+    },
+    {
+      "address": "University of California, Berkeley, CA",
+      "name": "UC Berkeley Campus",
+      "thumbnail": "uc-berkeley-campus.png",
+      "latitude": 37.870913,
+      "longitude": -122.255563,
+      "zoomLevel": 17,
+      "photoSphereIds": [
+        "tj2hv_Q6OhKikAv8u42OVw",
+        "7BsoRr8bNK8Ez2Il9nzQnQ",
+        "vS7Nad0X4fpRNqyVvjEuMQ"
+      ]
+    },
+    {
+      "address": "24 Willie Mays Plaza, San Francisco, CA 94107, USA",
+      "name": "Giants Ballpark",
+      "thumbnail": "giants-ballpark.png",
+      "latitude": 37.77785458124958,
+      "longitude": 237.61092812296218,
+      "zoomLevel": 18,
+      "photoSphereIds": [
+        "x5Nf7SJykyMAAAAGOjSqVQ",
+        "9OVEfrFiVs4AAAAGOsZ_Mw",
+        "6210a4jtlEC0qf7hL7r59Q"
+      ]
+    },
+    {
+      "address": "Stanford University, 450 Serra Mall, Stanford, CA 94305, USA",
+      "name": "Stanford Campus",
+      "thumbnail": "stanford-campus.png",
+      "latitude": 37.427474,
+      "longitude": -122.169719,
+      "zoomLevel": 17,
+      "photoSphereIds": [
+        "FKmIseri9cE0OsP19GvEzw",
+        "5fbYTBh4kCcAAAGuwlA4Xw",
+        "WruLV1c3uVC2mn8h7pRqoA"
+      ]
+    },
+    {
+      "address": "Hawaii Volcanoes National Park, Hawaii Volcanoes National Park, HI 96718",
+      "name": "Hawaii Volcanoes National Park",
+      "thumbnail": "",
+      "latitude": 19.405744587348405,
+      "longitude": 204.71701430109172,
+      "zoomLevel": 16,
+      "photoSphereIds": [
+        "fwY2dRw0uQaH-lGrexxsFQ",
+        "h2FnPsWiZUIB4S-lKOB83A",
+        "DHzalku8ixaegagPB6cD3w"
+      ]
+    },
+    {
+      "address": "Colosseum, Piazza del Colosseo, 1, 00184 Rome, Italy",
+      "name": "The Colosseum, Rome",
+      "thumbnail": "",
+      "latitude": 41.8902102,
+      "longitude": 372.4922289,
+      "zoomLevel": 18,
+      "photoSphereIds": [
+        "HHrXAc0c5gUAAAAGOsle8Q",
+        "8Ik_QF8dZUxFcEILDgLhcQ",
+        "29G4i9K_2jQAAAQIt8RmnA"
+      ]
+    },
+    {
+      "address": "4300 Nuhou Street, Lihue, HI 96766, USA",
+      "name": "Solar-Powered Store",
+      "thumbnail": "solar-powered-store.png",
+      "latitude": 21.9670391,
+      "longitude": -159.3795447,
+      "zoomLevel": 19,
+      "photoSphereIds": [
+        "QHcOfTTaNnYAAAGuquOF2Q",
+        "_HKq3kJG3NNXV9ElI9J8Wg",
+        "ptC2OJp5_o7tC_NH1CMNdg"
+      ]
+    }
+  ]
+} 

@@ -1,0 +1,127 @@
+@import "colors";
+
+$faqcard-width: 186px;
+$faqcard-content-height: 470px;
+$image-top: -30px;
+$faqcard-left: 475px;
+$faqcard-icon-height: 186px;
+$faqcard-question-height: 40px;
+
+#faqcards {
+  position: absolute;
+  width: $faqcard-width * 5;
+  height: $faqcard-icon-height;
+  display: block;
+  bottom: -7px;
+  left: $faqcard-left;
+}
+
+.faqcard {
+  float: left;
+  background: white;
+  
+  &.unselected {
+    background: $blue;
+  }
+}
+
+.faqcard-name {
+  font-family: "Naiv-BoldText";
+  font-size: 14px;
+  margin-top: 27px;
+  padding: 1px;
+  width: $faqcard-width;
+  text-align: center;
+  color: $blue;
+
+  &.unselected {
+    color: white;
+  }
+}
+
+.higher-faqcard {
+  margin-top: $image-top;
+}
+
+.lower-faqcard {
+  margin-top: $image-top - 18px;
+}
+
+#faqcard-content, #faqcard-questions-container {
+  position: absolute;
+  background: white;
+  left: $faqcard-left;
+}
+
+#faqcard-content {
+  width: $faqcard-width * 5;
+  height: $faqcard-content-height;
+  top: 95px;
+  
+  &.hidden {
+    display: none;
+  }
+}
+
+#faqcard-questions-container {
+  bottom: $faqcard-icon-height + 3px;
+
+  &.hidden {
+    display: none;
+  }
+}
+
+#faqcards-container {
+  width: 100%;
+  height: 100%;
+  display: block;
+  bottom: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.faqcard-content-container {
+  background: white;
+}
+
+#done-button {
+  margin-bottom: 20px;
+  margin-left: 255px;
+}
+
+#next-button, #previous-button {
+  &.not-visible {
+    visibility: hidden;
+  }
+}
+
+#next-button {
+  background: $navy;
+  margin-left: 285px;
+}
+
+#previous-button {
+  background: $navy;
+  margin-left: 34px;
+}
+
+.faqcard-question-container {
+  font-family: "Naiv-BoldText";
+  color: $blue;
+  height: $faqcard-question-height;
+  padding: 15px;
+  border-bottom: 1px solid $blue;
+}
+
+.faqcard-question-container:last-child {
+  border-bottom: 0;
+}
+
+.faqcard-content-image {
+  width: $faqcard-width * 5;
+  height: $faqcard-content-height;
+}

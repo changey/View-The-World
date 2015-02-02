@@ -1,0 +1,38 @@
+{
+  "name": "retail-2.0",
+  "version": "1.0.0",
+  "description": "see the world",
+  "main": "Gruntfile.js",
+  "devDependencies": {
+    "casperjs": "1.1.0-beta3",
+    "chromedriver": "2.8.1",
+    "grunt": "~0.4.4",
+    "grunt-cache-busting": "~0.0.10",
+    "grunt-casperjs": "~1.4.0",
+    "grunt-cli": "0.1.13",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-connect": "~0.7.1",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-jasmine": "~0.5.3",
+    "grunt-contrib-jshint": "~0.9.2",
+    "grunt-contrib-requirejs": "~0.4.3",
+    "grunt-contrib-sass": "~0.7.3",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-remove": "~0.1.0",
+    "grunt-template-jasmine-requirejs": "~0.1.10",
+    "grunt-usemin": "~2.1.0",
+    "grunt-wait": "~0.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SunRun/retail-2.0.git"
+  },
+  "author": "Sunrun",
+  "license": "Commercial",
+  "bugs": {
+    "url": "https://github.com/SunRun/retail-2.0/issues"
+  }
+}

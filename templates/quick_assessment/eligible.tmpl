@@ -1,0 +1,28 @@
+<div id="eligible-upper" class="overlay form-container">
+  {{if (savingsRange.category === 5) { }}
+  <h1 class="eligible-upper-text">LOOKS LIKE YOU COULD SAVE MONEY WITH SOLAR</h1>
+  {{ } else { }}
+  <h1 class="eligible-upper-text">Wow! What a great roof! You've got to get solar</h1>
+  <br></br>
+  <h1 class="eligible-upper-text">
+      Save 
+      {{if (savingsRange.category === 1) { }}
+        Up to {{= savingsRange.max }}
+      {{ } else if (savingsRange.category === 4) { }}
+        More than {{= savingsRange.min }}
+      {{ } else { }}
+        {{= savingsRange.min}} to {{= savingsRange.max }}
+      {{ } }}  
+  </h1>
+  <p class="eligible-upper-text last-line">over the lifetime of the system if you switched to solar.</p>
+  {{ } }}
+
+</div>
+
+<div id="eligible-lower" class="overlay form-container">
+  <h1>What's the next step?</h1>
+  <button id='eligible-start' type="submit" class="form-button continue-button">Design a system now</button>
+  <button id='later' type="submit" class="form-button cancel-button">Let's talk later</button>
+  <p class="home-info-body-text disclaimer">This is a savings estimate. Actual savings will vary based on weather, shade, system production, customer electricity usage, and assumed annual utility rate increases of 1%-6%, depending on the utility.</p>
+
+</div>

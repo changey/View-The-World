@@ -1,0 +1,70 @@
+@import "colors";
+
+#contact-info-container {
+  position: relative;
+  right: -72%;
+  opacity: $opacity;
+  z-index: 1;
+}
+
+#contact-info-form, #thank-you-dialog {
+  margin-top: 0px;
+  margin-left: -145px;
+}
+
+#contact-info-form {
+  margin-top: 0px;
+  margin-left: -145px;
+  
+  &.geocomplete {
+    position: absolute;
+    top: -979px;
+  }
+  
+  &.bill {
+    &.help {
+      margin-top: 0;
+    }
+  }
+}
+
+.contact-info-number {
+  margin-bottom: 30px;
+}
+
+#contact-info-done {
+  float: left;
+  margin-left: 23px;
+}
+
+#contact-info-cancel {
+  background: $navy;
+}
+
+#contact-info-geocomplete {
+  display: none;
+  position: relative;
+  width: 750px;
+  left: -900px;
+  top: 473px;
+
+  &.bill {
+    top: 50px;
+  }
+}
+
+#contact-info-address {
+  width: 100%;
+  font-size: 40px;
+  padding: 30px 20px;
+}
+
+.thank-you-message {
+  margin-top: 20px;
+}
+
+#thank-you-dialog {
+  &.bill {
+    margin-top: -155px;
+  }
+}

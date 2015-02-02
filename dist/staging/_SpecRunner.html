@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Jasmine Spec Runner</title>
+
+  
+  <link rel="stylesheet" type="text/css" href=".grunt/grunt-contrib-jasmine/jasmine.css">
+  
+
+  <script src=".grunt/grunt-contrib-jasmine/require.js"></script>
+  <script>
+    require.onError = function(error) {
+      var message = error.requireType + ': ';
+      if (error.requireType === 'scripterror' || error.requireType === 'notloaded' && error.requireModules) {
+        message += 'Illegal path or script error: ' + '[\'' + error.requireModules.join("', '") + '\']';
+      } else {
+        message += error.message;
+      }
+
+      throw Error(message);
+    };
+  </script>
+
+  
+  
+  <script src=".grunt/grunt-contrib-jasmine/jasmine.js"></script>
+  
+  <script src=".grunt/grunt-contrib-jasmine/jasmine-html.js"></script>
+  
+  <script src="vendor/js/jquery-2.1.0.js"></script>
+  
+  <script src="vendor/js/requirejs/require.js"></script>
+  
+  <script src="spec/support/jasmine_runner_helper.js"></script>
+  
+  <script src="spec/support/jasmine-jquery.js"></script>
+  
+  <script src="spec/support/mock-ajax.js"></script>
+  
+  <script src="spec/support/specHelper.js"></script>
+  
+  
+
+  <script>
+    
+
+    
+      require.config({
+  "paths": {
+    "jquery": "../vendor/js/jquery-2.1.0",
+    "jquery.ui": "../vendor/js/jquery.ui",
+    "underscore": "../vendor/js/underscore",
+    "backbone": "../vendor/js/backbone",
+    "spinjs": "../vendor/js/spin",
+    "async": "../vendor/js/requirejs/async",
+    "text": "../vendor/js/requirejs/text",
+    "jquery.geocomplete": "../vendor/js/jquery.geocomplete",
+    "localstorage": "../vendor/js/backbone.localStorage",
+    "extensions": "lib/extensions",
+    "eventBus": "lib/eventBus",
+    "googleMapsLoader": "../spec/support/googleMapsMock",
+    "googleEarthLoader": "lib/googleEarthLoader",
+    "accounting": "../vendor/js/accounting",
+    "dragdealer": "../vendor/js/dragdealer",
+    "animateSprite": "../vendor/js/jquery.animateSprite.min"
+  },
+  "shim": {
+    "underscore": {
+      "exports": "_"
+    },
+    "backbone": {
+      "deps": [
+        "jquery",
+        "underscore"
+      ]
+    },
+    "googleMapsLoader": {
+      "exports": "google"
+    },
+    "jquery.geocomplete": [
+      "jquery"
+    ]
+  },
+  "baseUrl": "./js",
+  "callback": function anonymous() {
+
+                require(['models/properties', 'viewTheWorld', 'extensions'], function(Properties) {
+                  ViewTheWorld.Properties = new Properties();
+                });
+
+              
+launchTest();
+}
+});
+    
+  </script>
+
+  <script>
+    function launchTest() {
+    require([
+      
+    ],
+    function(){
+      require(['spec/jasmine/collections/postcardCollectionSpec.js','spec/jasmine/lib/googleEarthSpec.js','spec/jasmine/lib/googleMapSpec.js','spec/jasmine/lib/userAgentSpooferSpec.js','spec/jasmine/models/activeLocationSpec.js','spec/jasmine/models/customerSpec.js','spec/jasmine/models/leadInfoSpec.js','spec/jasmine/models/loginInfoSpec.js','spec/jasmine/models/modelSelectionSpec.js','spec/jasmine/models/propertiesSpec.js','spec/jasmine/models/tourLocationSpec.js','spec/jasmine/routers/appRouterSpec.js','spec/jasmine/views/addressSearchViewSpec.js','spec/jasmine/views/contactInfoViewSpec.js','spec/jasmine/views/electricBillViewSpec.js','spec/jasmine/views/faqcardContentViewSpec.js','spec/jasmine/views/faqcardViewSpec.js','spec/jasmine/views/headerViewSpec.js','spec/jasmine/views/homeInfoViewSpec.js','spec/jasmine/views/loginViewSpec.js','spec/jasmine/views/mapControlsSpec.js','spec/jasmine/views/mapOperatorSpec.js','spec/jasmine/views/photosphereViewSpec.js','spec/jasmine/views/postcardViewSpec.js','spec/jasmine/views/postcardsViewSpec.js','spec/jasmine/views/tourLocationsViewSpec.js','spec/jasmine/views/tourOperatorViewSpec.js','spec/jasmine/views/tourViewSpec.js','.grunt/grunt-contrib-jasmine/reporter.js'], function(){
+        require(['.grunt/grunt-contrib-jasmine/jasmine-helper.js'], function(){
+          // good to go! Our tests should already be running.
+        })
+      })
+    }
+    )
+  }
+  </script>
+
+  
+</head>
+<body>
+</body>
+</html>

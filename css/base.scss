@@ -1,0 +1,102 @@
+@font-face{
+  font-family:'Naiv-BoldText';
+  src: url("../images/Naiv-BoldText.ttf") format("truetype");
+  font-weight:normal;
+  font-style:normal;
+}
+
+@font-face{
+  font-family:'Naiv-NormalText';
+  src: url("../images/naiv-normaltext.ttf") format("truetype");
+}
+
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+body, html {
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+h2, h3, h4, h5, h6, label, select {
+  font-weight:normal;
+  font-family: "Droid Sans";
+  margin:0;
+  color: $charcoal;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-weight: normal;
+  margin: 0;
+  color: $navy;
+  font-family: "Naiv-BoldText";
+  font-size: 31px;
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.4px;
+  -webkit-font-smoothing: antialiased;
+}
+
+h2 {
+  color: $navy;
+  font-size: 19px;
+  margin-top: 10px;
+}
+
+p {
+  color: $charcoal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.form-container .error {
+  color: red;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.form-button {
+  &:focus {
+    outline: 0;
+  }
+  font-family: "Naiv-BoldText";
+  color: white;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+  font-size: 20px;
+  border: none;
+  padding: 13px 20px 10px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: $orange;
+  -moz-box-shadow: $box-shadow;
+  -webkit-box-shadow: $box-shadow;
+  box-shadow: $box-shadow;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDE1NyA0NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSItMS40MjEwODU0NzE1MjAyZS0xNCUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjY2Q2YzFhIiBzdG9wLW9wYWNpdHk9IjEiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZTU4MTJmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgPC9saW5lYXJHcmFkaWVudD4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxNTciIGhlaWdodD0iNDQiIGZpbGw9InVybCgjaGF0MCkiIC8+Cjwvc3ZnPg==);
+  background-image: -moz-linear-gradient(bottom, #cd6c1a 0%, #e5812f 100%);
+  background-image: -o-linear-gradient(bottom, #cd6c1a 0%, #e5812f 100%);
+  background-image: -webkit-linear-gradient(bottom, #cd6c1a 0%, #e5812f 100%);
+  background-image: linear-gradient(bottom, #cd6c1a 0%, #e5812f 100%);
+  margin: 0;
+  &:hover {
+    box-shadow: none;
+  }
+
+  &.disabled {
+    box-shadow: none;
+    margin: 2px 0 0 1px;
+    background-image: none;
+    background-color: #aaa;
+  }
+}

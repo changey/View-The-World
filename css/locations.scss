@@ -1,0 +1,70 @@
+@import "colors";
+@import "variables";
+
+.overlay {
+
+  &.current-location {
+    transition: left 1s;
+    left: 0px;
+    top: 434px;
+    width: 505px;
+
+    &.hide {
+      left: -490px;
+    }
+  }
+}
+
+#locations {
+  position: absolute;
+  bottom: $locations-bottom;
+  left: 0;
+  height: 200px;
+  width: 90%;
+  overflow: hidden;
+  opacity: 0.949;
+  
+  .location {
+    cursor: pointer;
+    width: 192px;
+    height: 194px;
+    top: 6px;
+    padding: 15px;
+    float: left;
+    position: relative;
+    background-color: white;
+
+    .location-name {
+      font-family: "Naiv-BoldText";
+      color: $navy;
+      font-size: 16px;
+    }
+    .location-thumbnail {
+      position: absolute;
+      bottom: 9px;
+    }
+
+    &.active {
+      background: $blue;
+      .location-name {
+        color: white;
+      }
+    }
+  }
+  
+  &.recessed {
+    bottom: $locations-bottom;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    height: 70px;
+    
+    .location {
+      &.active {
+        height: 200px;
+        top: 0;
+      }
+    }
+  }
+}

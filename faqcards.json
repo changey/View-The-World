@@ -1,0 +1,97 @@
+[
+  {
+    "selectedThumbnail": "images/faqcard-icons/solar-basics-selected.png",
+    "displayName": "SOLAR BASICS",
+    "name": "solar-basics",
+    "questions": [
+      {
+        "label": "How does your home get electricity?",
+        "url": "images/faqcard-contents/SolarBasics_HowDoesYourHomeGetElectricity.png"
+      },
+      {
+        "label": "How does the system work?",
+        "url": "images/faqcard-contents/SolarBasics_HowDoesTheSystemWork.png"
+      }
+    ]
+  },
+  {
+    "selectedThumbnail": "images/faqcard-icons/no-hassle-installation-selected.png",
+    "displayName": "HOW IT WORKS",
+    "name": "no-hassle-installation",
+    "questions": [
+      {
+        "label": "Going Solar the \"Old\" Way",
+        "url": "images/faqcard-contents/HassleFree_GoingSolarTheOldWay.png"
+      },
+      {
+        "label": "Going Solar With the \"New\" Way",
+        "url": "images/faqcard-contents/HassleFree_GoingSolarWithSunrun.png"
+      },
+      {
+        "label": "Going Solar the Sunrun Way",
+        "url": "images/faqcard-contents/HassleFree_SolarServiceIsTheNewNorm.png"
+      },
+      {
+        "label": "Your Guarantee",
+        "url": "images/faqcard-contents/LifetimeSupport_ProductionGuarantee.png"
+      }
+    ]
+  },
+  {
+    "selectedThumbnail": "images/faqcard-icons/lock-in-savings-selected.png",
+    "displayName": "LOCK IN SAVINGS",
+    "name": "lock-in-savings",
+    "questions": [
+      {
+        "label": "Why Sunrun Solar Service",
+        "url": "images/faqcard-contents/LockinSavings_WhySunrunSolarService.png"
+      },
+      {
+        "label": "CA Utility Rates Increased 4.6% Over 35 Yrs",
+        "url": "images/faqcard-contents/LockinSavings_UtilityRatesAreRising_CA.png"
+      }
+    ]
+  },
+  {
+    "selectedThumbnail": "images/faqcard-icons/next-steps.png",
+    "displayName": "NEXT STEPS",
+    "name": "next-steps",
+    "questions": [
+      {
+        "label": "Next Steps to Get Sunrun Solar Service",
+        "url": "images/faqcard-contents/HassleFree_NextStepsToGetSunrunSolarService.png"
+      }
+    ]
+  },
+  {
+    "selectedThumbnail": "images/faqcard-icons/why-sunrun-solar-selected.png",
+    "displayName": "WHY SUNRUN SOLAR",
+    "name": "why-sunrun-solar",
+    "questions": [
+      {
+        "label": "Why Choose Sunrun?",
+        "url": "images/faqcard-contents/WhySunrun_ChooseSunrun.png"
+      },
+      {
+        "label": "See What Others Are Saying",
+        "url": "images/faqcard-contents/WhySunrunSolar_SeeWhatOthersAreSaying.png"
+      },
+      {
+        "label": "See What Others Are Saying - Angie's List",
+        "url": "images/faqcard-contents/WhySunrunSolar_SeeWhatOthersAreSaying_AngiesList.png"
+      },
+      {
+        "label": "See What Others Are Saying - BBB",
+        "url": "images/faqcard-contents/WhySunrunSolar_SeeWhatOthersAreSaying_BBB.png"
+      },
+      {
+        "label": "See What Others Are Saying - Facebook",
+        "url": "images/faqcard-contents/WhySunrunSolar_SeeWhatOthersAreSaying_Facebook.png"
+      },
+      {
+        "label": "See What Others Are Saying - Yelp",
+        "url": "images/faqcard-contents/WhySunrunSolar_SeeWhatOthersAreSaying_Yelp.png"
+      }
+    ]
+  }
+]

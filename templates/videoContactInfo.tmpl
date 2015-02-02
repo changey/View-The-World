@@ -1,0 +1,52 @@
+
+<div id="video-contact-form" class="overlay form-container">
+  <div class="form-element-container video-input-container">
+    <label class="form-label" for="contact-first-name">First Name</label>
+    <input class="form-input customer-input" type="text" name="first-name" id="contact-first-name"
+           value="{{= attributes.firstName ? attributes.firstName : ''}}"/>
+    {{ if(errors.firstNameMissing){ }}
+    <p id="first-name-error" class="error">Please enter the first name.</p>
+    {{ } }}
+  </div>
+
+  <div class="form-element-container video-input-container">
+    <label class="form-label" for="contact-last-name">Last Name</label>
+    <input class="form-input customer-input" type="text" name="last-name" id="contact-last-name"
+           value = "{{= attributes.lastName ? attributes.lastName : ''}}"/>
+    {{ if(errors.lastNameMissing){ }}
+    <p id="last-name-error" class="error">Please enter the last name.</p>
+    {{ } }}
+  </div>
+
+  <div class="form-element-container video-input-container">
+    <label class="form-label" for="contact-email">Email Address</label>
+    <input class="form-input" type="text" name="email" id="contact-email"
+      value = "{{= attributes.email ? attributes.email : ''}}"/>
+  </div>
+  
+  <div class="form-element-container contact-info-number video-input-container">
+    <label class="form-label" for="contact-phone">Phone Number</label>
+    <input class="form-input" type="text" name="phone" id="contact-phone"
+      value = "{{= attributes.phone ? attributes.phone : ''}}"/>
+    {{ if(errors.emailAndPhoneMissing){ }}
+    <p id="email-error" class="error">Please enter either the email or the phone number.</p>
+    {{ } }}
+  </div>
+
+  <div class="button-container">
+    <button id='video-contact-done' type="submit" class="form-button">Submit</button>
+  </div>
+  <div class="button-container">
+    <button id='video-contact-clear' type="submit" class="form-button">Clear</button>
+  </div>
+  <div>
+    <p class="customer-disclaimer">I hereby authorize Sunrun to call me at the telephone number above using an automatic telephone dialing system and/or prerecorded message. I understand that consent is not a condition of purchase.</p>
+  </div>
+</div>
+
+<div id="contact-info-geocomplete">
+  <input type="text" name="contact-info-address" id="contact-info-address" placeholder="Street Address"/>       
+</div>
+  
+<form id="contact-salesforce-form" action="{{= salesforceUrl }}" method="post" target="contact-salesforce-iframe"></form>
+<iframe id="contact-salesforce-iframe" class="video-contact" name="contact-salesforce-iframe"></iframe>

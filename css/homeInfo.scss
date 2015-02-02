@@ -1,0 +1,109 @@
+@import "colors";
+
+.shading-icon {
+  margin-left: 120px;
+}
+
+#home-info {
+  width: 530px;
+}
+
+.cancel-button {
+  background: $navy;
+  position: relative;
+  left: 12px;
+}
+
+.continue-button {
+  float: left;
+}
+
+#sales-reps {
+  margin-top: 40px;
+  width: 93%;
+}
+
+#eligible-lower {
+  margin-top: 285px;
+}
+
+#eligible-upper {
+  margin-top: 40px;
+  background: $blue; 
+}
+
+.eligible-upper-text {
+  color: white;
+  text-align: center;
+  
+  &.last-line {
+    margin-top: 10px;
+  }
+}
+
+.slider-bg-img {
+  position: absolute;
+  top: 216px;
+}
+
+.assessment-title {
+  border-bottom: 1px solid lightgray;
+}
+
+#assessment-bill-amount-container {
+  text-align: right;
+  margin-top: 23px;
+}
+
+.disclaimer {
+  font-size: 14px;
+}
+
+.roof {
+  height: 200px;
+  width: 290px;
+  background-image: url(/images/quick-assessment/house.png);
+  display: inline-block;
+  position: absolute;
+  top:165px;
+  right: 195px;
+
+}
+
+.shade {
+  height: 300px;
+  width: 528px;
+  background-image: url(/images/quick-assessment/shade.png);
+  display: inline-block;
+  margin-left: -10px;
+}
+.quick-assessment-slider {
+  margin-left: 25px;
+  margin-top: 5px;
+}
+
+#square-footage {
+  width: 102px;
+  text-align: center;
+  margin-top: 13px;
+  margin-left: 20px;
+}
+
+.divider {
+  border-bottom: 1px solid lightgray;
+  margin-top: 10px;
+}
+
+#quick-assessment-done, #quick-assessment-back {
+  margin-top: 13px;
+}
+
+#quick-assessment-back {
+  background: $navy;
+  float: left;
+  margin-left: 30px;
+}
+
+.animation-img {
+  height: 300px;
+}

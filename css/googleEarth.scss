@@ -1,0 +1,29 @@
+#earth-view-container {
+  display: none;
+}
+
+#move-the-earth-hack {
+
+  position: relative;
+  height: $header-height;
+  
+  &.cover-header {
+    z-index: 1;
+  }
+}
+
+.exit-earth {
+  background: white;
+  top: $google-earth-button-distance-top;
+  right: 0;
+  position: absolute;
+  border: 0;
+  width: 45px;
+  height: 45px;
+  box-shadow: $box-shadow;
+
+  &.iframe-shim {
+    z-index: 9;
+    opacity: 0;
+  }
+}

@@ -1,0 +1,16 @@
+<div id="postcards-container"></div>
+
+<div class="overlay current-location">
+  <h1 id="location-name">{{= activeLocationName}}</h1>
+</div>
+    
+<div id="locations">
+  {{ _.each(locations, function(location, index) { }}
+    <div class='location {{= activeLocationName == location.name ? "active" : "" }}'>
+      <div class='location-name'>{{= location.name }}</div>
+      <div class='location-thumbnail'>
+        <img src='images/locations/{{= location.thumbnail }}' width='163' height='97'/>
+      </div>  
+    </div>    
+  {{ }); }}
+</div>

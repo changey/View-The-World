@@ -1,0 +1,174 @@
+@import "colors";
+
+/**************************/
+/* INFO AND FORM OVERLAYS */
+/**************************/
+
+.overlay {
+  padding: 25px 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.949);
+  -moz-box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.22);
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.22);
+  position: absolute;
+  font-family: "Naiv-BoldText";
+  width: 490px;
+
+  &.address-form {
+    left: 0px;
+    top: 226px;
+    height: 178px;
+    width: 505px;
+    input {
+      width: 100%;
+      margin: 10px 0;
+    }
+
+    button {
+      display: inline-block;
+      margin-left: auto;
+      float: right;
+    }
+  }
+}
+
+#geocomplete-textbox {
+  display: none;
+  width: 800px;
+  margin: 434px auto;
+}
+
+.pac-item {
+  padding: 20px 7px 15px 7px;
+  
+  .pac-item-query {
+    padding-right: 10px
+  }
+  
+  span {
+    font-size: 28px;
+  }
+}
+
+#street-address {
+  display: block;
+  width: 100%;
+  position: relative;
+  font-size: 40px;
+  padding: 30px 20px;
+  background-image:url(https://developers.google.com/maps/documentation/places/images/powered-by-google-on-white.png);
+  background-repeat:no-repeat;
+  background-position: 675px 50px;
+}
+
+#large-textbox {
+  display: none;
+  width: 800px;
+  margin: 434px auto;
+}
+
+#large-input {
+  display: block;
+  width: 100%;
+  position: relative;
+  font-size: 40px;
+  padding: 30px 20px;
+}
+
+#address-error {
+  display: inline-block;
+  width: 240px;
+  color: red;
+}
+
+#monthly-bill, #home-info {
+  left: 0px;
+  top: 130px;
+  
+  table {
+    width: 109.1%;
+    margin: 0 auto;
+    position: relative;
+    left: -9px;
+    padding: 0;
+    tr td {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      width: 11.11%;
+    }
+  }
+}
+
+#monthly-bill {
+  width: 472px;
+}
+
+#bill-amount-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#bill-amount {
+  width: 102px;
+  margin: -10px 10px;
+  text-align: center;
+}
+
+#bill-button-container {
+  margin: 20px 0 0;
+  text-align: center;
+  button {
+    width: 192px;
+    margin: 0;
+  }
+}
+
+input {
+  &[type="text"] {
+    padding: 4px 22px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(79, 79, 79);
+    border-radius: 6px;
+    background-image: -moz-linear-gradient(90deg, rgb(255, 255, 255) 60%, rgb(212, 212, 212) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(255, 255, 255) 60%, rgb(212, 212, 212) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(255, 255, 255) 60%, rgb(212, 212, 212) 100%);
+    font-size: 16px;
+    font-family: "Droid Sans";
+    color: rgb(27, 70, 119);
+  }
+  &.hint {
+    color: #c2c2c2;
+  }
+  &:focus {
+    outline: 0;
+  }
+}
+
+input {
+  &[type="range"] {
+    -webkit-appearance: none !important;
+    width: 90%;
+    margin: 30px;
+    height: 4px;
+    border-radius: 6px;
+    background-color: $blue;
+  }
+  &[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    border-radius: 10px;
+    background: url('../images/slider/handle.png') no-repeat left top;
+    height: 30px;
+    width: 30px;
+  }
+}
+
+div.pac-container::after {
+  display: none;
+}
+
+.ui-helper-hidden-accessible { display: none; }

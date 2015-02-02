@@ -1,0 +1,6 @@
+<div class="faqcard {{= faqcard.get('isSelected') ? '' : 'unselected' }}" data-name="{{= faqcard.get('name')}}">
+  <div class="faqcard-name {{= faqcard.get('isSelected') ? '' : 'unselected' }}">
+      {{= faqcard.get('displayName') }}
+  </div>
+  <img class="{{= faqcard.get('name') === "lock-in-savings" ? "lower-faqcard" : "higher-faqcard"}}" src='{{= faqcard.get('isSelected') ? faqcard.get('selectedThumbnail') : faqcard.get('selectedThumbnail') }}' />
+</div>

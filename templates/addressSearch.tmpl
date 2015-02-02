@@ -1,0 +1,20 @@
+<div id="address-search">
+  <div class="overlay address-form">
+    <h1>How much can you save?</h1>
+    <input type="text" name="street-address-placeholder" id="street-address-placeholder" class="street-address"
+           placeholder="Street Address"
+           value="{{= isValidAddress? addressString : ''}}"/>
+
+    <div id="address-result"></div>
+    {{ if(!isValidZip){ }}
+    <div id="address-error" class="error">Please select an address with a zipcode.</div>
+    {{ } }}
+    <button id="get-started" class="form-button {{= isValidAddress? '': 'disabled' }}">Check my roof &gt;</button>
+  </div>
+</div>
+
+<div id="geocomplete-textbox">
+  <input type="text" name="street-address" id="street-address" class="street-address"
+         placeholder="Street Address"
+         value="{{= isValidAddress? addressString : ''}}"/>
+</div>

@@ -1,0 +1,51 @@
+<div id="get-started" class="overlay form-container">
+  <h1>We know your time is precious let's chat later</h1>
+  <p class="home-info-body-text">It only takes one call to see if solar could save you from rising electricity bills.</p>
+  <div class="form-element-container">
+    <label class="form-label" for="first-name">First Name</label>
+    <input class="form-input customer-input" type="text" name="first-name" id="first-name"
+           value="{{= attributes.firstName ? attributes.firstName : ''}}"/>
+    {{ if(errors.firstNameMissing){ }}
+    <p id="first-name-error" class="error">Please enter the first name.</p>
+    {{ } }}
+  </div>
+
+  <div class="form-element-container">
+    <label class="form-label" for="last-name">Last Name</label>
+    <input class="form-input customer-input" type="text" name="last-name" id="last-name"
+           value = "{{= attributes.lastName ? attributes.lastName : ''}}"/>
+    {{ if(errors.lastNameMissing){ }}
+    <p id="last-name-error" class="error">Please enter the last name.</p>
+    {{ } }}
+  </div>
+
+  <div class="form-element-container">
+    <label class="form-label" for="phone">Phone Number</label>
+    <input class="form-input customer-input" type="text" name="phone" id="phone"
+           value = "{{= attributes.phone ? attributes.phone : ''}}"/>
+  </div>
+
+  <div class="form-element-container">
+    <label class="form-label" for="email">Email Address</label>
+    <input class="form-input customer-input" type="text" name="email" id="email"
+           value = "{{= attributes.email ? attributes.email : ''}}"/>
+    {{ if(errors.emailAndPhoneMissing){ }}
+    <p id="email-error" class="error">Please enter either a valid email or the phone number.</p>
+    {{ } }}
+  </div>
+
+  <select id="sales-reps" class="form-input">
+    {{ _.each(salesReps, function(salesRep) { }}
+    <option value="{{= salesRep}}">{{= salesRep}}</option>
+    {{ }); }}
+  </select>
+  <button id='later-done' type="submit" class="form-button">Done</button>
+  <div>
+    <p class="customer-disclaimer">I hereby authorize Sunrun to call me at the telephone number above using an automatic telephone dialing system and/or prerecorded message. I understand that consent is not a condition of purchase.</p>
+  </div>
+
+</div>
+
+<form id="assessment-salesforce-form" action="{{= salesforceUrl }}" method="post" target="assessment-salesforce-iframe"></form>
+<iframe id="assessment-salesforce-iframe" name="assessment-salesforce-iframe"></iframe>
+<div id="loading"></div>

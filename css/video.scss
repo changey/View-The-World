@@ -1,0 +1,79 @@
+@import "colors";
+
+$header-margin-top: 13px;
+$contact-form-margin-top: 0;
+$form-width: 360px;
+$contact-form-margin-left: 6%;
+
+#video-form-title {
+  color: white;
+  margin-left: 57%;
+  margin-top: 15px;
+  float: left;
+}
+
+#video-form-email {
+  margin-left: 2%;
+  margin-top: $header-margin-top;
+  float: left;
+}
+
+#video-form-submit {
+  margin-top: 12px;
+  margin-left: 2%;
+  height: 34px;
+  width: 120px;
+  padding-top: 7px;
+}
+
+#sunrun-youtube {
+  position: absolute;
+  top: 0;
+}
+
+#video-hiding-hack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+#video-contact-done {
+  float: left;
+  margin-left: 18px;
+  margin-top: 0;
+}
+
+#video-contact-clear {
+  background: $navy;
+}
+
+#video-contact-form {
+  margin-top: $contact-form-margin-top;
+  width: $form-width;
+  left: $contact-form-margin-left;
+  padding: 0 30px;
+  padding-bottom: 25px;
+}
+
+.video-contact#contact-salesforce-iframe {
+  margin-top: $contact-form-margin-top;
+  margin-left: 30%;
+}
+
+#video-contact-done, #video-contact-clear {
+  min-width: 120px;
+}
+
+.video-thank-you#thank-you-dialog {
+  width: $form-width;
+  position: absolute;
+  top: $contact-form-margin-top;
+  left: 14%
+}
+
+.video-input-container {
+  width: 45%;
+  float: left;
+  margin-left: 3%;
+}

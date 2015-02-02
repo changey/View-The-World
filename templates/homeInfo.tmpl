@@ -1,0 +1,77 @@
+<div id="home-info" class="overlay form-container">
+  <h1 class="assessment-title">Is solar a good match?</h1>
+  <div class="animation-img">
+    <div class="shading-icon animation roof"></div>
+    <div class="shading-icon animation shade"></div>
+  </div>
+
+  <div class="divider"></div>
+
+  <h2 id="monthly-bill-title">Average monthly electric bill?</h2>
+  <div id="assessment-bill-amount-container">
+    <label for="bill-amount">$</label>
+    <input class="form-input customer-input amount" type="text" name="bill-amount" id="bill-amount" value="{{= defaultBillAmount }}" onkeypress="return event.charCode >= 48 && event.charCode <= 57"/>
+  </div>
+  <input type="range" min="0" max="1000" step="10" id="bill-range" value="{{= defaultBillAmount }}"/>
+  <table>
+    <tr>
+      <td>0</td>
+      <td>200 </td>
+      <td>400</td>
+      <td>600</td>
+      <td>800</td>
+      <td>1000</td>
+    </tr>
+  </table>
+  <div id="bill-amount-error" class="error" style="display:none">Please enter a valid bill amount</div>
+  <div class="divider"></div>
+
+  <h2 id="square-footage-title">What is the home's square footage?</h2>
+  <div id="assessment-square-footage-container">
+    <input class="form-input customer-input amount" type="text" name="square-footage" id="square-footage" value="{{= defaultSquareFootage }}" onkeypress="return event.charCode >= 48 && event.charCode <= 57"/>
+    <label for="bill-amount">sq.ft.</label>
+  </div>
+  <input type="range" min="1000" max="5000" step="100" id="square-footage-range" value="{{= defaultSquareFootage }}"/>
+  <table>
+    <tr>
+      <td>1000</td>
+      <td>2000 </td>
+      <td>3000</td>
+      <td>4000</td>
+      <td>5000</td>
+    </tr>
+  </table>
+  <div class="divider"></div>
+
+  <h2>How much roof space is available for solar?</h2>
+  <table>
+    <tr>
+      <td>A little</td>
+      <td></td>
+      <td>A lot</td>
+    </tr>
+  </table>
+  <div id="slider-roof" class="dragdealer quick-assessment-slider">
+    <div class="handle red-bar" data-name="roofSpace">
+    </div>
+  </div>
+  <div class="divider"></div>
+
+  <h2>How much shade does your roof get?</h2>
+  <table>
+    <tr>
+      <td>A lot</td>
+      <td>A little</td>
+      <td>None</td>
+    </tr>
+  </table>
+  <div id="slider-shade" class="dragdealer quick-assessment-slider">
+    <div class="handle red-bar" data-name="shadeArea">
+    </div>
+  </div>
+
+  <div class="button-container">
+    <button id='quick-assessment-back' type="submit" class="form-button">Back</button>
+    <button id='quick-assessment-done' type="submit" class="form-button">Done</button>
+  </div>
+</div>

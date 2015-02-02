@@ -1,0 +1,84 @@
+@import "colors";
+@import "variables";
+
+$postcard-height: 138px;
+$postcard-width: 192px;
+
+#photo-sphere {
+
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+#postcards-container {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  display: block;
+  bottom: 0;
+  
+  &.full-height {
+    height: 100%;
+  }
+}
+
+#postcards {
+  position: absolute;
+  height: $postcard-height;
+  bottom: 70px + $locations-bottom;
+  width: 100%;
+  display: block;
+  
+}
+
+#postcards-inner-wrapper {
+  overflow: hidden;
+  display: block;
+  position: absolute;
+  width: $postcard-width;
+
+  transition: all linear .5s;
+  
+  &.expand-height {
+    height: $postcard-height;
+  }
+
+  &.expand-width {
+    width: initial;
+  }
+
+  .postcard-container {
+    background: $blue;
+    opacity: $opacity;
+    cursor: pointer;
+    width: $postcard-width;
+    height: $postcard-height;
+    float: left;
+    
+    
+    .postcard {
+      $padding: 15px;
+      padding: $padding;
+      float: left;
+      width: $postcard-width;
+      height: $postcard-height;
+
+      $selected-border-width: 5px;
+      .postcard-thumbnail {
+        $image-width: 163px;
+        $image-height: 97px;
+        width: $image-width + 2*$selected-border-width;
+        height: $image-height + 2*$selected-border-width;
+      }
+      
+      &.selected {
+        padding: $padding - $selected-border-width;
+        .postcard-thumbnail {
+          border: $selected-border-width solid navy;          
+        }
+      }
+    }
+  }
+}
